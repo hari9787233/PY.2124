@@ -1,0 +1,301 @@
+
+1. Declare a variable called x and assign it a value of 20. Then declare another variable y and assign it a value of 15. Print the values of both variables.
+Answer:
+x = 20  
+y = 15  
+print('x:', x)  
+print('y:', y)  
+
+
+2. Declare two variables a and b. Assign them values 10 and 5, respectively. Add the two numbers, store the result in a variable sum, and print the result with a message: 'The sum of a and b is: <value>'.
+Answer:
+
+a = 10  
+b = 5  
+sum = a + b  
+print('The sum of a and b is:', sum)  
+
+
+3. Declare a variable name and assign it the value 'Alice'. Print a message: 'Hello, <name>! Welcome to Python programming.'
+Answer:
+
+name = 'Alice'  
+print(f'Hello, {name}! Welcome to Python programming.')  
+
+
+4. Ask the user to input their name and store it in a variable called user_name. Then ask them to input their age and store it in user_age. Print a message: 'Hello, <user_name>! You are <user_age> years old.'
+Answer:
+
+user_name = input('Enter your name: ')  
+user_age = input('Enter your age: ')  
+print(f'Hello, {user_name}! You are {user_age} years old.')  
+
+
+5. Ask the user to input their daily wage and store it in a variable daily_wage. Then ask how many days they worked in a month and store it in days_worked. Calculate the total monthly salary and print the message: 'Your total monthly salary is: <monthly_salary>'.
+Answer:
+
+daily_wage = float(input('Enter your daily wage: '))  
+days_worked = int(input('Enter days worked in a month: '))  
+monthly_salary = daily_wage * days_worked  
+print(f'Your total monthly salary is: {monthly_salary}')  
+
+
+6. Ask the user to input the length and width of a rectangle. Calculate the area using the formula length * width and print the result with the message: 'The area of the rectangle is: <area>'.
+Answer:
+
+length = float(input('Enter the length of the rectangle: '))  
+width = float(input('Enter the width of the rectangle: '))  
+area = length * width  
+print(f'The area of the rectangle is: {area}')  
+
+
+7. Ask the user to input the price of an item and store it in item_price. Then ask how many of those items they want to buy and store it in quantity. Calculate the total cost and print: 'The total cost of your purchase is: <total_cost>'.
+Answer:
+
+item_price = float(input('Enter the price of an item: '))  
+quantity = int(input('Enter the quantity: '))  
+total_cost = item_price * quantity  
+print(f'The total cost of your purchase is: {total_cost}')  
+
+
+8. Ask the user to input three numbers. Calculate the average using the formula (num1 + num2 + num3) / 3 and print the message: 'The average of the three numbers is: <average>'.
+Answer:
+
+num1 = float(input('Enter the first number: '))  
+num2 = float(input('Enter the second number: '))  
+num3 = float(input('Enter the third number: '))  
+average = (num1 + num2 + num3) / 3  
+print(f'The average of the three numbers is: {average}')  
+
+
+9. Ask the user to input an amount in dollars and store it in dollars. Assume the conversion rate to INR is 75. Convert the dollars to INR and print: 'The amount in INR is: <rupees>'.
+Answer:
+
+dollars = float(input('Enter the amount in dollars: '))  
+conversion_rate = 75  
+rupees = dollars * conversion_rate  
+print(f'The amount in INR is: {rupees}')  
+
+
+10. Ask the user to input the principal amount, rate of interest, and time in years. Calculate the simple interest using the formula (principal * rate * time) / 100 and print the result with the message: 'The simple interest is: <interest>'.
+Answer:
+
+principal = float(input('Enter the principal amount: '))  
+rate = float(input('Enter the rate of interest: '))  
+time = float(input('Enter the time in years: '))  
+interest = (principal * rate * time) / 100  
+print(f'The simple interest is: {interest}') 
+
+11. Write a program that asks the user for their age and checks if they are eligible to vote. Print 'Eligible to vote' if the age is 18 or more, otherwise print 'Not eligible to vote'.
+Answer:
+age = int(input('Enter your age: '))
+if age >= 18:
+    print('Eligible to vote')
+else:
+    print('Not eligible to vote')
+12. Create a program that asks the user for a number and prints whether the number is even or odd.
+Answer:
+number = int(input('Enter a number: '))
+if number % 2 == 0:
+    print('The number is even')
+else:
+    print('The number is odd')
+13. Write a program that takes the temperature in Celsius as input and prints 'It's hot outside!' if the temperature is above 30, otherwise print 'The weather is cool.'
+Answer:
+temperature = float(input('Enter the temperature in Celsius: '))
+if temperature > 30:
+    print('It\'s hot outside!')
+else:
+    print('The weather is cool.')
+14. Write a program that asks the user for their exam score and prints the following grades based on the score:
+Score ≥ 90: Grade A
+Score ≥ 75 and < 90: Grade B
+Score ≥ 50 and < 75: Grade C
+Score < 50: Grade F
+Answer:
+score = int(input('Enter your exam score: '))
+if score >= 90:
+    print('Grade A')
+elif score >= 75:
+    print('Grade B')
+elif score >= 50:
+    print('Grade C')
+else:
+    print('Grade F')
+15. Write a program that asks the user for their account balance and the amount they want to withdraw. Print 'Withdrawal successful' if the amount is less than or equal to the balance. Otherwise, print 'Insufficient balance.'
+Answer:
+balance = float(input('Enter your account balance: '))
+withdraw = float(input('Enter the amount to withdraw: '))
+if withdraw <= balance:
+    print('Withdrawal successful')
+else:
+    print('Insufficient balance')
+16. Create a program that asks the user for the traffic light color (red, yellow, or green) and prints:
+'Stop!' if the color is red.
+'Get ready to move' if the color is yellow.
+'Go!' if the color is green.
+'Invalid color' for any other input.
+Answer:
+color = input('Enter the traffic light color: ').lower()
+if color == 'red':
+    print('Stop!')
+elif color == 'yellow':
+    print('Get ready to move')
+elif color == 'green':
+    print('Go!')
+else:
+    print('Invalid color')
+17. Write a program that takes a number as input and checks if it is positive, negative, or zero.
+Answer:
+number = float(input('Enter a number: '))
+if number > 0:
+    print('The number is positive')
+elif number < 0:
+    print('The number is negative')
+else:
+    print('The number is zero')
+18. Write a program that asks the user for the price of an item and the discount percentage. If the discount is greater than 50%, print 'Discount too high!' Otherwise, calculate and print the discounted price.
+Answer:
+price = float(input('Enter the price of the item: '))
+discount = float(input('Enter the discount percentage: '))
+if discount > 50:
+    print('Discount too high!')
+else:
+    discounted_price = price - (price * discount / 100)
+    print(f'The discounted price is: {discounted_price}')
+19. Write a program that takes a user's password as input and checks if it matches a predefined password. Print 'Access granted' if it matches, otherwise print 'Access denied.'
+Answer:
+password = input('Enter your password: ')
+predefined_password = 'mypassword'
+if password == predefined_password:
+    print('Access granted')
+else:
+    print('Access denied')
+20. Create a program that takes three numbers as input and prints the largest among them.
+Answer:
+num1 = float(input('Enter the first number: '))
+num2 = float(input('Enter the second number: '))
+num3 = float(input('Enter the third number: '))
+if num1 >= num2 and num1 >= num3:
+    print(f'The largest number is: {num1}')
+elif num2 >= num1 and num2 >= num3:
+    print(f'The largest number is: {num2}')
+else:
+    print(f'The largest number is: {num3}')
+
+
+21. Birthday Invitations:
+Problem: Write a Python program to send birthday invitations to your friends:
+Create a list of 5 friends' names (e.g., 'Alice', 'Bob', 'Charlie', 'Dana', 'Eve').
+Use a for loop to go through each friend's name in the list.
+Print a message for each friend: 'Hi , you are invited to my birthday party!'
+Solution:
+friends = ['Alice', 'Bob', 'Charlie', 'Dana', 'Eve']
+for friend in friends:
+    print(f"Hi {friend}, you are invited to my birthday party!")
+
+22. Counting Apples in Baskets:
+Problem: Write a Python program to count the total number of apples in multiple baskets:
+Assume you have 5 baskets, each containing a different number of apples (e.g., [5, 8, 3, 10, 7]).
+Use a for loop to add up the apples from all baskets.
+At the end, print: 'The total number of apples is: <total_apples>'.
+Solution:
+baskets = [5, 8, 3, 10, 7]
+total_apples = 0
+for apples in baskets:
+    total_apples += apples
+print(f"The total number of apples is: {total_apples}")
+
+23. Greeting Each Classmate:
+Problem: Write a Python program to greet your classmates individually:
+Create a list of 5 classmates' names (e.g., 'John', 'Sarah', 'Mike', 'Anna', 'Chris').
+Use a for loop to go through each name in the list.
+Print a greeting message for each classmate: 'Hello , good to see you!'
+Solution:
+classmates = ['John', 'Sarah', 'Mike', 'Anna', 'Chris']
+for classmate in classmates:
+    print(f"Hello {classmate}, good to see you!")
+
+24. Daily Water Intake Tracker:
+Problem: Write a Python program to track your daily water intake for a week and check if you met your daily goal of 2 liters:
+Create a list with the amount of water you drank each day for 7 days (e.g., [2.5, 1.8, 2.0, 1.5, 2.2, 2.0, 2.1]).
+Use a for loop to go through each day's water intake.
+For each day, print:
+'Day <day_number>: You drank enough water!' if the intake is 2 liters or more.
+'Day <day_number>: Drink more water tomorrow!' if the intake is less than 2 liters.
+Solution:
+water_intake = [2.5, 1.8, 2.0, 1.5, 2.2, 2.0, 2.1]
+for day, intake in enumerate(water_intake, start=1):
+    if intake >= 2.0:
+        print(f"Day {day}: You drank enough water!")
+    else:
+        print(f"Day {day}: Drink more water tomorrow!")
+
+25. Magic Numbers:
+Problem: Write a Python program to display the first 5 multiples of a number entered by the user:
+Ask the user to input a number.
+Use a for loop to generate and print the first 5 multiples of the number.
+For example, if the user enters 3, the program should print: The first 5 multiples of 3 are: 3 6 9 12 15
+Solution:
+number = int(input("Enter a number: "))
+print(f"The first 5 multiples of {number} are:")
+for i in range(1, 6):
+    print(number * i)
+
+26. Collecting Coins:
+Problem: Write a Python program to count the number of coins in 4 treasure chests:
+Create a list with the number of coins in each treasure chest (e.g., [50, 120, 90, 30]).
+Use a for loop to print how many coins each chest contains, with the message: 'Treasure chest <chest_number> contains coins.'
+Solution:
+treasure_chests = [50, 120, 90, 30]
+for chest_number, coins in enumerate(treasure_chests, start=1):
+    print(f"Treasure chest {chest_number} contains {coins} coins.")
+
+27. Guessing Game for Secret Numbers:
+Problem: Write a Python program to check if a list of guesses contains the secret number:
+Define a secret number (e.g., 7).
+Create a list of guesses made by the user (e.g., [3, 5, 7, 9, 11]).
+Use a for loop to go through each guess in the list.
+Print:
+'Guess : Correct!' if the guess matches the secret number.
+'Guess : Wrong, try again.' if it does not match.
+Solution:
+secret_number = 7
+guesses = [3, 5, 7, 9, 11]
+for guess in guesses:
+    if guess == secret_number:
+        print(f"Guess {guess}: Correct!")
+    else:
+        print(f"Guess {guess}: Wrong, try again.")
+
+28. Candy Distribution:
+Problem: Write a Python program to distribute candies equally among 3 children:
+Assume you have 15 candies in total.
+Use a for loop to print how many candies each child gets, with the message: 'Child <child_number> gets <candies_per_child> candies.'
+Solution:
+total_candies = 15
+children = 3
+candies_per_child = total_candies // children
+for child in range(1, children + 1):
+    print(f"Child {child} gets {candies_per_child} candies.")
+
+29. Star Ratings:
+Problem: Write a Python program to display a 5-star rating system for a product:
+Use a for loop to print one additional star (*) in each line.
+The final output should look like this: * **
+
+
+Solution:
+for i in range(1, 6):
+    print('*' * i)
+
+30. Days Until Vacation:
+Problem: Write a Python program to count down the days until a vacation starts:
+Assume you have 5 days left until vacation.
+Use a for loop to print: '5 days left...', '4 days left...', and so on, until it reaches: 'Vacation starts now!'
+Solution:
+days_left = 5
+for day in range(days_left, 0, -1):
+    print(f"{day} days left...")
+print("Vacation starts now!")
+
